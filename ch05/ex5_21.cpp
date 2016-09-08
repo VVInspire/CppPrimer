@@ -36,5 +36,9 @@ int main()
             prev = curr;
     }
 
-    if (!no_twice) cout << "no word was repeated." << endl;
+    if (!no_twice) 
+        cout << "no word was repeated." << endl;
+    else
+        cout << prev << " occurs twice in succession." << endl;
+    return 0;
 }
